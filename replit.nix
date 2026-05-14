@@ -18,7 +18,6 @@
     pkgs.fzf
     pkgs.jq
     pkgs.ffmpeg
-    pkgs.imagemagick
     pkgs.ncdu
     pkgs.unzip
     pkgs.zip
@@ -28,5 +27,7 @@
     pkgs.dnsutils
     pkgs.iproute2
     pkgs.netcat-gnu
+    pkgs.tailscale
+    pkgs.openssh
   ];
 }
