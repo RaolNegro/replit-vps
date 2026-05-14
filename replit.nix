@@ -1,0 +1,32 @@
+{ pkgs }: {
+  deps = [
+    pkgs.bashInteractive
+    pkgs.git
+    pkgs.curl
+    pkgs.wget
+    pkgs.vim
+    pkgs.nano
+    pkgs.htop
+    pkgs.nodejs_24
+    pkgs.yarn
+    pkgs.python3
+    pkgs.python3Packages.pip
+    pkgs.fish
+    pkgs.tmux
+    pkgs.ripgrep
+    pkgs.fd
+    pkgs.fzf
+    pkgs.jq
+    pkgs.ffmpeg
+    pkgs.imagemagick
+    pkgs.ncdu
+    pkgs.unzip
+    pkgs.zip
+    pkgs.tree
+    pkgs.lsof
+    pkgs.aria2
+    pkgs.dnsutils
+    pkgs.iproute2
+    pkgs.netcat-gnu
+  ];
+}
